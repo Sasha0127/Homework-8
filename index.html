@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <title>CSS selectors</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header><!-- Навігаційне меню з іконками --></header>
+    <main>
+      <!-- селектор нащадка ігнорує вкладеність html тегів та стилізує всі обрані теги всередині елементу з класом blog -->
+      <section class="blog">
+        <h2>Наш блог</h2>
+        <article>
+          <h3>Перша стаття</h3>
+          <p>Текст статті.</p>
+        </article>
+        <article>
+          <h3>Друга стаття</h3>
+          <p>Ще один текст статті.</p>
+        </article>
+      </section>
+      <p>Абзац поза блогом.</p>
+      <!--  -->
+      <div class="card">
+        <h2>Назва товару</h2>
+        <p>Короткий опис.</p>
+        <div class="details"><p>Додаткова інформація.</p></div>
+      </div>
+    </main>
+  </body>
+</html>
