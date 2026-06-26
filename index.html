@@ -10,23 +10,79 @@
     <main>
       <!-- селектор нащадка ігнорує вкладеність html тегів та стилізує всі обрані теги всередині елементу з класом blog -->
       <section class="blog">
-        <h2>Наш блог</h2>
-        <article>
-          <h3>Перша стаття</h3>
-          <p>Текст статті.</p>
+        <article class="blog-article">
+          <h2>HTML</h2>
+
+          <p>Основний текст статті.</p>
+
+          <div class="author">
+            <p>Автор: Олена</p>
+          </div>
         </article>
-        <article>
-          <h3>Друга стаття</h3>
-          <p>Ще один текст статті.</p>
+
+        <article class="blog-article">
+          <h2>CSS</h2>
+
+          <p>Основний текст статті.</p>
+
+          <div class="author">
+            <p>Автор: Іван</p>
+          </div>
         </article>
       </section>
+      <section class="promo">
+        <h2>Special Offer</h2>
+
+        <div class="content">
+          <p>Get 20% discount on your first order.</p>
+          <button>Order now</button>
+        </div>
+
+        <button>Learn more</button>
+      </section>
+      <section class="restaurant-menu">
+        <h2>Our Menu</h2>
+
+        <div class="category">
+          <h3>Pizza</h3>
+          <p>Margarita, Pepperoni, Four Cheese</p>
+        </div>
+
+        <div class="category">
+          <h3>Drinks</h3>
+          <p>Tea, Coffee, Lemonade</p>
+        </div>
+      </section>
+      <section class="travel">
+        <h2>Popular Destinations</h2>
+
+        <div class="country">
+          <h3>Italy</h3>
+
+          <div class="cities">
+            <p>Rome</p>
+            <p>Venice</p>
+          </div>
+        </div>
+
+        <p>Choose your next trip.</p>
+      </section>
       <p>Абзац поза блогом.</p>
-      <!--  -->
+      <!-- селектор дитини бере до уваги вкладеність та стилізує лише прямого нащадка елементу з класом card -->
       <div class="card">
         <h2>Назва товару</h2>
         <p>Короткий опис.</p>
         <div class="details"><p>Додаткова інформація.</p></div>
       </div>
+      <footer class="footer">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+
+        <div class="extra-links">
+          <a href="#">Політика конфіденційності</a>
+          <a href="#">Умови використання</a>
+        </div>
+      </footer>
     </main>
   </body>
 </html>

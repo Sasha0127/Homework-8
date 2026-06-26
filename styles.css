@@ -6,3 +6,44 @@
 .card > p {
   color: green;
 }
+.promo p {
+  color: gray;
+  font-size: 18px;
+}
+.promo > button {
+  background-color: tomato;
+  color: white;
+  border: none;
+}
+.blog h2 {
+  color: blueviolet;
+}
+.blog-article > p {
+  color: blue;
+}
+.restaurant-menu h3 {
+  color: darkred;
+  text-transform: uppercase;
+}
+.restaurant-menu p {
+  color: #555;
+  line-height: 1.6;
+}
+.restaurant-menu h2 {
+  text-align: center;
+  color: orange;
+}
+.travel p {
+  color: teal;
+}
+.travel > p {
+  font-weight: 700;
+  font-size: 20px;
+}
+.footer a {
+  color: black;
+  text-decoration-line: none;
+}
+.footer > a {
+  color: red;
+}
